@@ -1,8 +1,8 @@
 {
-  "name": "statelink",
+  "name": "statelink-docs",
   "version": "1.0.0",
-  "homepage": "https://statelink.github.com/statelink",
   "private": true,
+  "homepage": "https://statelink.github.com/statelink",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "typings": "dist/index.d.ts",
@@ -26,7 +26,8 @@
     ]
   },
   "dependencies": {
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "statelink": "^0.1.20"
   },
   "devDependencies": {
     "@umijs/test": "^3.0.5",
